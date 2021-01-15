@@ -1,0 +1,157 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.alert {
+  background-color: #1188ee;
+
+  color: white;
+  padding: 10px 0 10px 45px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  letter-spacing: 0.015em;
+}
+
+header {
+  background: #17222d;
+  display: flex;
+  padding: 20px 45px;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header ul li a {
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 38px;
+}
+header ul li a:hover {
+  color: #ee2211;
+  transition: 0.5s;
+}
+.main {
+  background-image: url(./surfbot/fotos/capa-main.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.main h1 {
+  position: absolute;
+  color: white;
+  font-family: Alice;
+  font-size: 72px;
+  line-height: 82px;
+  padding-left: 45px;
+  padding-top: 270px;
+}
+
+.praia {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 60px 45px;
+}
+.praia-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgs .pranchas {
+  width: 570px;
+  height: 640px;
+}
+.imgs .mapa {
+  position: relative;
+  top: -100px;
+  left: 15px;
+  filter: drop-shadow(0px 5px 5px rgba(23, 34, 45, 0.3)),
+    drop-shadow(0px 10px 10px rgba(23, 34, 45, 0.2));
+}
+.imgs h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 119%;
+  text-transform: uppercase;
+}
+.imgs ul li {
+  font-size: 14px;
+  line-height: 140%;
+  color: #99aabb;
+  font-weight: bold;
+}
+.imgs span {
+  color: #17222d;
+}
+.praia-info {
+  width: 870px;
+}
+
+.praia-info h1 {
+  font-family: Alice;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 82px;
+}
+.praia-info h1 span {
+  color: #1188ee;
+}
+.praia-info ul {
+  margin: 60px 0 30px 0;
+}
+.praia-info ul li {
+  font-size: 24px;
+  line-height: 33px;
+  color: #445566;
+  padding: 40px 0;
+  border-top: 2px solid #eff4f9;
+}
+.praia-info ul li:last-child {
+  border-bottom: 2px solid #eff4f9;
+}
+.praia-info p {
+  font-size: 24px;
+  line-height: 119%;
+  color: #445566;
+}
+
+/* -CITACAO */
+
+.citacao {
+  background-image: url(./surfbot/fotos/adam-krowitz-386792.jpg);
+  background-position: top;
+  box-sizing: border-box;
+  padding: 175px 0;
+  color: white;
+  text-align: center;
+}
+.citacao p {
+  font-family: Alice;
+  font-size: 72px;
+  line-height: 90%;
+  width: 708px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.citacao cite {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+/* *FOOTER */
+footer {
+  background-color: #0468cc;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 45px;
+}
+footer img {
+  fill: white;
+}
